@@ -1,0 +1,97 @@
+
+
+    .img-wrapper img {
+        display: block;
+        width: 100%;
+        margin: auto;
+        border-radius: 5%;
+        box-shadow: 00.1rem 0.1rem 0.2rem black ;
+    }
+    #logo {
+        margin-top: 5rem;
+    }
+    #footer{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 2rem;
+        right: 2rem;
+        animation: name 3s 1s ease-in-out infinite;
+        
+    }
+    @keyframes name {
+        0% {
+            transform: rotateY(60deg);
+            color:black;
+        }
+        50%{
+            transform: scale(1.01);
+            color: rgb(60, 0, 255);
+        }
+        80% {
+            transform: skew(5deg,5deg);
+        }
+        100% {
+            transform: rotateX(360deg);
+            color: red;
+        }
+        
+    }
+
+
+    .skill {
+        transition: all 0.5s ease-in ;
+    }
+    .skill:hover {
+        background-color: rgb(228, 100, 68);
+        color: #fff;
+        border-radius: 50%;
+    }
+    .about {
+        font-size: 1.4rem;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-weight: 400;
+    }
+    .about {
+        transition: all 0.3s ease-in-out;
+    }
+    .about:hover {
+        background-color: rgb(34, 37, 37);
+        border-radius: 50%;
+        color: red;
+        transform: rotateY(30deg)
+    }
+    .summary1 {
+        font-family: 'Roboto', sans-serif;
+        transition: all 0.5s ease-in-out ;
+    }
+    .summary1:hover {
+        transform: scale(1.03);
+        font-weight: 300;
+
+    }
+    .summary2 {
+        transition: all 0.5s ease-in;
+    }
+    .summary2:hover {
+        background-color: red;
+        border-radius: 50%;
+        text-shadow: 0.1rem 0.1rem 0.1rem blue;
+    }
+    .require {
+        transition: all 0.2s ease-in-out;
+    }
+    .require:hover {
+        background-color: black;
+        border-radius: 50%;
+        color: #fff;
+    }
+    .req {
+        transition: all 0.5s ease-in-out;
+    }
+    .req:hover {
+        background-color: rgb(235, 243, 91);
+        transform: skew(1deg,1deg);
+    }
