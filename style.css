@@ -95,3 +95,24 @@
         background-color: rgb(235, 243, 91);
         transform: skew(1deg,1deg);
     }
+
+#connect {
+        padding: 50px 25px;
+    }
+    #connect h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+    .connect-box {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .connect-box i {
+        font-size: 50px;
+        padding-top: 10px;
+
+    }
+    .connect-box i:hover {
+        transform: scale(1.5);
+        transition: 0.5s;
+    }
